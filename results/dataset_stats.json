@@ -1,0 +1,45 @@
+{
+ "n_scen": 700,
+ "n_leak": 500,
+ "n_incipient": 251,
+ "mean_net_demand_Ls": 681.5883178710938,
+ "leak_flow_pct": [
+  1.94,
+  7.69,
+  15.93,
+  35.4,
+  83.03
+ ],
+ "leak_flow_pct_of_demand_median": 2.3366854574770484,
+ "diam_range_cm": [
+  1.51,
+  6.97
+ ],
+ "pos_fraction": 0.4128677721088435,
+ "sensors": [
+  "217",
+  "237",
+  "195",
+  "275",
+  "129",
+  "181",
+  "15",
+  "149",
+  "105",
+  "123"
+ ],
+ "example": {
+  "id": 4,
+  "leak": true,
+  "seed": 888996990,
+  "start_weekday": 0,
+  "node": "127",
+  "diameter_m": 0.04059971365555089,
+  "area_m2": 0.0012946006552565753,
+  "start": 299,
+  "kind": "abrupt",
+  "ramp": 0,
+  "mean_leak_flow_Ls": 24.550971229235685,
+  "final_leak_flow_Ls": 24.402200219672405
+ }
+}

@@ -1,0 +1,13 @@
+trained P-CNN (baseline)
+trained TCN
+trained Transformer
+trained CNN-BiLSTM
+noise 0.0
+noise 0.25
+noise 0.5
+noise 1.0
++0.0m/+0% {'LogReg': 0.703, 'P-CNN (baseline)': 0.685, 'TCN': 0.692, 'Transformer': 0.699, 'CNN-BiLSTM': 0.658, 'HyEns (soft vote)': 0.707}
++0.25m/+1% {'LogReg': 0.671, 'P-CNN (baseline)': 0.693, 'TCN': 0.714, 'Transformer': 0.702, 'CNN-BiLSTM': 0.685, 'HyEns (soft vote)': 0.711}
++0.5m/+2% {'LogReg': 0.572, 'P-CNN (baseline)': 0.676, 'TCN': 0.705, 'Transformer': 0.687, 'CNN-BiLSTM': 0.694, 'HyEns (soft vote)': 0.69}
++1.0m/+3% {'LogReg': 0.428, 'P-CNN (baseline)': 0.663, 'TCN': 0.691, 'Transformer': 0.676, 'CNN-BiLSTM': 0.697, 'HyEns (soft vote)': 0.683}
+small {'LogReg': (0.575, 0.655), 'P-CNN (baseline)': (0.538, 0.657), 'TCN': (0.521, 0.668), 'Transformer': (0.535, 0.66), 'CNN-BiLSTM': (0.485, 0.664), 'HyEns (soft vote)': (0.532, 0.675)}
